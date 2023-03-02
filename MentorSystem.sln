@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MentorSystem", "MentorSystem\MentorSystem.csproj", "{121C257E-2C71-4337-87AF-B109BB333076}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{BF785A27-C654-4FF3-BBBF-22CE730E9E29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{121C257E-2C71-4337-87AF-B109BB333076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121C257E-2C71-4337-87AF-B109BB333076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121C257E-2C71-4337-87AF-B109BB333076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121C257E-2C71-4337-87AF-B109BB333076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF785A27-C654-4FF3-BBBF-22CE730E9E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF785A27-C654-4FF3-BBBF-22CE730E9E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF785A27-C654-4FF3-BBBF-22CE730E9E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF785A27-C654-4FF3-BBBF-22CE730E9E29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {047F8751-4407-4CDF-A898-F6D7243EBB94}
+	EndGlobalSection
+EndGlobal
