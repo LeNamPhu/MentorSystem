@@ -4,7 +4,7 @@
 }
 <h1> Login page </h1>
 
-<h4> @Model.Message </h4>
+<h4 class="text-danger"> @Model.Message </h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -26,5 +26,8 @@
                 <input type="submit" value="Login" class="btn btn-primary" />
             </div>
         </form>
+    </div>
+    <div class="">
+        <a class="" asp-page="/Create">Don't have an account, sign up here.'</a>
     </div>
 </div>

@@ -1,0 +1,37 @@
+﻿@page
+@model MentorSystem.Pages.ViewMentor.ViewSkillModel
+@{
+}
+<h4>Mentor CV</h4>
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MentorSkills[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MentorSkills[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MentorSkills[0].Status)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.MentorSkills)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

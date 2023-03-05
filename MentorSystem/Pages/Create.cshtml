@@ -3,6 +3,8 @@
 
 <h4>Account</h4>
 <hr />
+<h4 class="text-danger"> @Model.Message </h4>
+<hr/>
 <div class="row">
     <div class="col-md-4">
         <form method="post">
@@ -14,12 +16,15 @@
             </div>
             <div class="form-group">
                 <label asp-for="Account.Password" class="control-label"></label>
-                <input asp-for="Account.Password" class="form-control" />
+                <input type="password" asp-for="Account.Password" class="form-control" />
                 <span asp-validation-for="Account.Password" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Account.Role" class="control-label"></label>
-                <input asp-for="Account.Role" class="form-control" />
+                <select asp-for="Account.Role" class="form-control">
+                    <option value="Student">Student</option>
+                    <option value="Mentor">Mentor</option>
+                </select>
                 <span asp-validation-for="Account.Role" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -44,7 +49,10 @@
             </div>
             <div class="form-group">
                 <label asp-for="Account.Sex" class="control-label"></label>
-                <input asp-for="Account.Sex" class="form-control" />
+                <select asp-for="Account.Sex" class="form-control">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
                 <span asp-validation-for="Account.Sex" class="text-danger"></span>
             </div>
             <div class="form-group">

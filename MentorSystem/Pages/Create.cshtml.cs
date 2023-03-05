@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -25,13 +26,25 @@ namespace MentorSystem.Pages
 
         [BindProperty]
         public Account Account { get; set; }
-        
+
+        public string Message { get; set; }
 
         // To protect from overposting attacks, see https://aka.ms/RazorPagesCRUD
         public async Task<IActionResult> OnPostAsync()
         {
           if (!ModelState.IsValid)
             {
+                return Page();
+            }
+            DateTime date;
+            if (Account.Email == null || Account.Password == null || Account.Fullname == null || Account.Phone == null || Account.Address == null)
+            {
+                Message = "All field required";
+                return Page();
+            }
+            if (!DateTime.TryParse(Account.Dateofbirth, out date))
+            {
+                Message = "Invalid date";
                 return Page();
             }
 

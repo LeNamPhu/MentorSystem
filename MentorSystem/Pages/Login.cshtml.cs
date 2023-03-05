@@ -28,8 +28,14 @@ namespace MentorSystem.Pages
                 HttpContext.Session.SetString("Email", check.Email);
                 HttpContext.Session.SetString("Role", check.Role);
                 HttpContext.Session.SetString("Id", check.Id.ToString());
-
-                return RedirectToPage("Index");
+                if (check.Role == "Student")
+                {
+                    return RedirectToPage("/HomeStudent/Index");
+                }
+                else
+                {
+                    return RedirectToPage("Index");
+                }
             }
             else
             {

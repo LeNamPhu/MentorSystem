@@ -1,0 +1,57 @@
+﻿@page
+@model MentorSystem.Pages.Mentor.IndexModel
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Fullname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Dateofbirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Account[0].Sex)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Account.Where(a => a.Role == "Mentor")) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Fullname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dateofbirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sex)
+            </td>
+            <td>
+                <a asp-page="./ViewCV" asp-route-id="@item.Id">View Mentor CV</a> |
+                <a asp-page="./ViewSkill" asp-route-id="@item.Id">View Mentor Skill</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

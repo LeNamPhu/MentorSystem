@@ -10,5 +10,10 @@ namespace Repository.Models
 
         public virtual Account Mentor { get; set; }
         public virtual Skill Skill { get; set; }
+
+        public static implicit operator MentorSkill(List<Skill> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
