@@ -5,12 +5,32 @@
       "PackagePath": "staticwebassets\\MentorSystem.bundle.scp.css"
     },
     {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\Logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\Logo.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\StarFade.gif",
+      "PackagePath": "staticwebassets\\Images\\StarFade.gif"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\starglow.gif",
+      "PackagePath": "staticwebassets\\Images\\starglow.gif"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
     },
     {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\site.js",

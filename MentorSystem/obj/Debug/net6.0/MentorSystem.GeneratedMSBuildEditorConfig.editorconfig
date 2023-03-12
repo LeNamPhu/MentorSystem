@@ -44,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/PRN221/MentorSystem/MentorSystem/Pages/HomeStudent/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZVN0dWRlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/PRN221/MentorSystem/MentorSystem/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,8 +60,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/PRN221/MentorSystem/MentorSystem/Pages/RateMentor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmF0ZU1lbnRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/PRN221/MentorSystem/MentorSystem/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewClass/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0NsYXNzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewClass/RequestClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0NsYXNzXFJlcXVlc3RDbGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewClass/ViewStudentClass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0NsYXNzXFZpZXdTdHVkZW50Q2xhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewMentor/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld01lbnRvclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewMentor/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld01lbnRvclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewMentor/ViewCV.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld01lbnRvclxWaWV3Q1YuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewMentor/ViewSkill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld01lbnRvclxWaWV3U2tpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/PRN221/MentorSystem/MentorSystem/Pages/_ViewImports.cshtml]
