@@ -1,0 +1,43 @@
+﻿@page
+@model MentorSystem.Pages.ViewClass.ViewStudentClassModel
+@{
+}
+<h4>Student Class</h4>
+<hr />
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Class[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Class[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Class[0].Mentorid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Class[0].Schedule)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Class)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mentorid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Schedule)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

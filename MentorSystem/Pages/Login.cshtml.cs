@@ -30,7 +30,7 @@ namespace MentorSystem.Pages
                 HttpContext.Session.SetString("Id", check.Id.ToString());
                 if (check.Role == "Student")
                 {
-                    return RedirectToPage("/HomeStudent/Index");
+                    return RedirectToPage("/ViewClass/Index");
                 }
                 else
                 {

@@ -1,6 +1,7 @@
 ﻿@page
 @model MentorSystem.Pages.Mentor.IndexModel
 
+
 <table class="table">
     <thead>
         <tr>
@@ -47,11 +48,12 @@
                 @Html.DisplayFor(modelItem => item.Sex)
             </td>
             <td>
-                <a asp-page="./ViewCV" asp-route-id="@item.Id">View Mentor CV</a> |
-                <a asp-page="./ViewSkill" asp-route-id="@item.Id">View Mentor Skill</a> |
-                <a asp-page="./Details" asp-route-id="@item.Id">Details</a>
+                    <a asp-page="./ViewCV" asp-route-id="@item.Id" class="btn btn-primary">View Mentor CV</a> |
+                    <a asp-page="./ViewSkill" asp-route-id="@item.Id" class="btn btn-primary">View Mentor Skill</a> |
+                    <a asp-page="../RateMentor/Index" asp-route-id="@item.Id" class="btn btn-primary">Rate Mentor</a>
             </td>
         </tr>
 }
     </tbody>
 </table>
+
