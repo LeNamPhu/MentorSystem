@@ -7,8 +7,33 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\NewFolder1\**" />
+    <Content Remove="Pages\NewFolder1\**" />
+    <EmbeddedResource Remove="Pages\NewFolder1\**" />
+    <None Remove="Pages\NewFolder1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Images\illustrations\pattern-tree.svg" />
+    <None Include="wwwroot\Images\logos\gray-logos\logo-coinbase.svg" />
+    <None Include="wwwroot\Images\logos\gray-logos\logo-nasa.svg" />
+    <None Include="wwwroot\Images\logos\gray-logos\logo-netflix.svg" />
+    <None Include="wwwroot\Images\logos\gray-logos\logo-pinterest.svg" />
+    <None Include="wwwroot\Images\logos\gray-logos\logo-spotify.svg" />
+    <None Include="wwwroot\Images\logos\gray-logos\logo-vodafone.svg" />
+    <None Include="wwwroot\Images\shapes\pattern-lines.svg" />
+    <None Include="wwwroot\Images\shapes\waves-white.svg" />
     <None Include="wwwroot\Images\StarFade.gif" />
     <None Include="wwwroot\Images\starglow.gif" />
+    <None Include="wwwroot\js\core\bootstrap.bundle.min.js" />
+    <None Include="wwwroot\js\core\bootstrap.min.js" />
+    <None Include="wwwroot\js\core\popper.min.js" />
+    <None Include="wwwroot\js\plugins\bootstrap-notify.js" />
+    <None Include="wwwroot\js\plugins\Chart.extension.js" />
+    <None Include="wwwroot\js\plugins\chartjs.min.js" />
+    <None Include="wwwroot\js\plugins\perfect-scrollbar.min.js" />
+    <None Include="wwwroot\js\plugins\smooth-scrollbar.min.js" />
+    <None Include="wwwroot\js\plugins\world.js" />
   </ItemGroup>
 
   <ItemGroup>

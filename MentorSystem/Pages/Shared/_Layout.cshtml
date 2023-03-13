@@ -5,52 +5,46 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - MentorSystem</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/MentorSystem.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/nucleo-icons.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/nucleo-svg.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+    <link id="pagestyle" href="~/css/material-dashboard.css?v=3.0.4" rel="stylesheet" />
+
+    
     <link href="@Url.Content("~/css/main.css")" rel="stylesheet" type="text/css" />
     @RenderSection("Styles", false)
 </head>
 <body>
+
+
     
-    <header>
-        @if (Context.Session.GetString("Role") != null)
-        {
-            <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
-                <div class="position-sticky">
-                <div class="list-group list-group-flush mx-3 mt-4">
-                        
-                        
-                        <img src="~/Images/Logo.jpg" class=" list-group-item list-group-item-action py-2 ripple fs-1 ">
-
-                    <a href="/ViewMentor" class="list-group-item list-group-item-action py-2 ripple"  aria-current="true">
-                        <i class="fas fa-tachometer-alt fa-fw me-3"></i><span>View Mentor</span>
-                       
-                    </a>
-                        <a href="/ViewClass/ViewStudentClass" class="list-group-item list-group-item-action py-2 ripple ">
-                        <i class="fas fa-chart-area fa-fw me-3"></i><span>Your Class</span>
-                    </a>
-                </div>
-            </div>
-        </nav>
-        }
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
             @RenderBody()
-        </main>
-    </div>
+       
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2023 - MentorSystem - <a asp-area="" asp-page="/Privacy">Privacy</a>
-        </div>
-    </footer>
+    
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/main.js" asp-append-version="true"></script>
+
+    
+    <script src="~/js/core/popper.min.js"></script>
+    <script src="~/js/core/bootstrap.min.js"></script>
+    <script src="~/js/plugins/perfect-scrollbar.min.js"></script>
+    <script src="~/js/plugins/smooth-scrollbar.min.js"></script>
+    <script>
+        var win = navigator.platform.indexOf('Win') > -1;
+        if (win && document.querySelector('#sidenav-scrollbar')) {
+            var options = {
+                damping: '0.5'
+            }
+            Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+        }
+    </script>
+    <!-- Github buttons -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
+    <script src="~/js/material-dashboard.min.js?v=3.0.4"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

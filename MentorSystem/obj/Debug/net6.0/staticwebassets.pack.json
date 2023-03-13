@@ -9,16 +9,240 @@
       "PackagePath": "staticwebassets\\Images\\Logo.jpg"
     },
     {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\SmallIcon.png",
+      "PackagePath": "staticwebassets\\Images\\SmallIcon.png"
+    },
+    {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\StarFade.gif",
       "PackagePath": "staticwebassets\\Images\\StarFade.gif"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\home-decor-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\home-decor-1.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\home-decor-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\home-decor-2.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\home-decor-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\home-decor-3.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\icons\\flags\\AU.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\flags\\AU.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\icons\\flags\\BR.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\flags\\BR.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\icons\\flags\\DE.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\flags\\DE.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\icons\\flags\\GB.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\flags\\GB.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\icons\\flags\\US.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\flags\\US.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\chat.png",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\chat.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\danger-chat-ill.png",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\danger-chat-ill.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\dark-lock-ill.png",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\dark-lock-ill.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\error-404.png",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\error-404.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\error-500.png",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\error-500.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\illustration-lock.jpg",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\illustration-lock.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\illustration-reset.jpg",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\illustration-reset.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\illustration-signin.jpg",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\illustration-signin.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\illustration-signup.jpg",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\illustration-signup.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\illustration-verification.jpg",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\illustration-verification.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\lock.png",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\lock.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\pattern-tree.svg",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\pattern-tree.svg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\illustrations\\rocket-white.png",
+      "PackagePath": "staticwebassets\\Images\\illustrations\\rocket-white.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\ivana-square.jpg",
+      "PackagePath": "staticwebassets\\Images\\ivana-square.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\ivana-squares.jpg",
+      "PackagePath": "staticwebassets\\Images\\ivana-squares.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\logos\\gray-logos\\logo-coinbase.svg",
+      "PackagePath": "staticwebassets\\Images\\logos\\gray-logos\\logo-coinbase.svg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\logos\\gray-logos\\logo-nasa.svg",
+      "PackagePath": "staticwebassets\\Images\\logos\\gray-logos\\logo-nasa.svg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\logos\\gray-logos\\logo-netflix.svg",
+      "PackagePath": "staticwebassets\\Images\\logos\\gray-logos\\logo-netflix.svg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\logos\\gray-logos\\logo-pinterest.svg",
+      "PackagePath": "staticwebassets\\Images\\logos\\gray-logos\\logo-pinterest.svg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\logos\\gray-logos\\logo-spotify.svg",
+      "PackagePath": "staticwebassets\\Images\\logos\\gray-logos\\logo-spotify.svg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\logos\\gray-logos\\logo-vodafone.svg",
+      "PackagePath": "staticwebassets\\Images\\logos\\gray-logos\\logo-vodafone.svg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\logos\\mastercard.png",
+      "PackagePath": "staticwebassets\\Images\\logos\\mastercard.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\logos\\visa.png",
+      "PackagePath": "staticwebassets\\Images\\logos\\visa.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-1-min.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-1-min.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-11.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-11.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-2-min.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-2-min.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-3-min.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-3-min.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-4-min.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-4-min.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-5-min.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-5-min.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-6-min.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-6-min.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-7-min.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-7-min.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-details-1.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-details-2.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-details-3.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-details-4.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\products\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\Images\\products\\product-details-5.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\shapes\\pattern-lines.svg",
+      "PackagePath": "staticwebassets\\Images\\shapes\\pattern-lines.svg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\shapes\\waves-white.svg",
+      "PackagePath": "staticwebassets\\Images\\shapes\\waves-white.svg"
     },
     {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\starglow.gif",
       "PackagePath": "staticwebassets\\Images\\starglow.gif"
     },
     {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\team-4.jpg",
+      "PackagePath": "staticwebassets\\Images\\team-4.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\team-5.jpg",
+      "PackagePath": "staticwebassets\\Images\\team-5.jpg"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\tesla-model-s.png",
+      "PackagePath": "staticwebassets\\Images\\tesla-model-s.png"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\vr-bg.jpg",
+      "PackagePath": "staticwebassets\\Images\\vr-bg.jpg"
+    },
+    {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\css\\main.css",
       "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\css\\material-dashboard.css",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.css"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\css\\material-dashboard.css.map",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.css.map"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\css\\material-dashboard.min.css",
+      "PackagePath": "staticwebassets\\css\\material-dashboard.min.css"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\css\\nucleo-icons.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-icons.css"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\css\\nucleo-svg.css",
+      "PackagePath": "staticwebassets\\css\\nucleo-svg.css"
     },
     {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\css\\site.css",
@@ -29,8 +253,56 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\core\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\core\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\core\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\core\\popper.min.js"
+    },
+    {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\main.js",
       "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\material-dashboard.js",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\material-dashboard.js.map",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.js.map"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\material-dashboard.min.js",
+      "PackagePath": "staticwebassets\\js\\material-dashboard.min.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\plugins\\Chart.extension.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\Chart.extension.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\plugins\\bootstrap-notify.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\bootstrap-notify.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\plugins\\chartjs.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\chartjs.min.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\plugins\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\plugins\\smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\plugins\\world.js",
+      "PackagePath": "staticwebassets\\js\\plugins\\world.js"
     },
     {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\js\\site.js",
