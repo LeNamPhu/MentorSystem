@@ -13,13 +13,13 @@
                 @Html.DisplayNameFor(model => model.Rating[0].Id)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Rating[0].Rating1)
+                Rate
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Rating[0].Comment)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Rating[0].Studentid)
+                Student
             </th>
         </tr>
     </thead>
@@ -37,7 +37,7 @@
                     @Html.DisplayFor(modelItem => item.Comment)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Studentid)
+                    @Html.DisplayFor(modelItem => Model.Accounts.FirstOrDefault(a => a.Id == item.Studentid).Fullname)
                 </td>
             </tr>
         }
@@ -47,14 +47,6 @@
     <div class="col-md-4">
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            @*<div class="form-group">
-                <label asp-for="RateMentor.Rating1" class="control-label"></label>
-                <select asp-for="RateMentor.Rating1" class="form-control">
-                    <option value="1">Student</option>
-                    <option value="2">Mentor</option>
-                </select>
-                <span asp-validation-for="RateMentor." class="text-danger"></span>
-            </div>*@
             <div class="commentBox">
                 @Html.AntiForgeryToken()
                 <div class="form-horizontal">

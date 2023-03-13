@@ -16,14 +16,17 @@ namespace MentorSystem.Pages.ViewClass
 
         [BindProperty]
         public Class Class { get; set; }
-
+        public IList<Account> Accounts { get; set; } = default!;
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null || _context.Classes == null)
             {
                 return NotFound();
             }
-
+            if (_context.Accounts != null)
+            {
+                Accounts = await _context.Accounts.ToListAsync();
+            }
             var stClass = await _context.Classes.FirstOrDefaultAsync(m => m.Id == id);
 
             if (stClass == null)

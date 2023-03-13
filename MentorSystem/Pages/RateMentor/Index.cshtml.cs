@@ -21,6 +21,7 @@ namespace MentorSystem.Pages.RateMentor
         public Rating RateMentor { get; set; }
         public int? MentorId { get; set; }
         public int Rate { get; set; }
+        public IList<Account> Accounts { get; set; } = default!;
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null)
@@ -29,6 +30,11 @@ namespace MentorSystem.Pages.RateMentor
             }
 
             var rate = _context.Ratings.Where(m => m.Mentorid == id);
+
+            if (_context.Accounts != null)
+            {
+                Accounts = await _context.Accounts.ToListAsync();
+            }
 
             if (rate == null)
             {
@@ -58,7 +64,7 @@ namespace MentorSystem.Pages.RateMentor
             await _context.SaveChangesAsync();
             
 
-            return Page();
+            return RedirectToAction("./Index", new { id = id });
         }
     }
 }

@@ -16,12 +16,18 @@ namespace MentorSystem.Pages.ViewClass
         }
 
         public IList<Class> Class { get; set; } = default!;
+        
+        public IList<Account> Accounts { get; set; } = default!;
 
         public async Task OnGetAsync()
         {
-            if (_context.Accounts != null)
+            if (_context.Classes != null)
             {
                 Class = await _context.Classes.ToListAsync();
+            }
+            if (_context.Accounts != null)
+            {
+                Accounts = await _context.Accounts.ToListAsync();
             }
         }
     }

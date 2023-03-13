@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore;
 using Repository.Models;
 
 namespace MentorSystem.Pages.ViewClass
@@ -14,6 +15,7 @@ namespace MentorSystem.Pages.ViewClass
         }
 
         public IList<Class> Class { get; set; } = default!;
+        public IList<Account> Accounts { get; set; } = default!;
         public async Task<IActionResult> OnGetAsync()
         {
             var id = Int32.Parse(HttpContext.Session.GetString("Id"));
@@ -28,7 +30,10 @@ namespace MentorSystem.Pages.ViewClass
                 var stClass = _context.Classes.FirstOrDefault(m => m.Id == item.Classid);
                 classList.Add(stClass);
             }
-
+            if (_context.Accounts != null)
+            {
+                Accounts = await _context.Accounts.ToListAsync();
+            }
             if (classList == null)
             {
                 return NotFound();
