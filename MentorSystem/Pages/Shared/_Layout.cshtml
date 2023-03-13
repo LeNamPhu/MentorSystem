@@ -18,6 +18,7 @@
     @RenderSection("Styles", false)
 </head>
 <body class="g-sidenav-show  bg-gray-200 ">
+    
     @if (Context.Session.GetString("Role") != null)
     {
         <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
@@ -85,7 +86,9 @@
     </aside>
     }
    
+    <main class="main-content position-relative max-height-vh-100 h-100 border-radius-lg">
             @RenderBody()
+    </main>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/main.js"></script>
