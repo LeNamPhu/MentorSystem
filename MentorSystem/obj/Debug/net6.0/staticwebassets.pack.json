@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\MentorSystem.bundle.scp.css"
     },
     {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\IconOnly.png",
+      "PackagePath": "staticwebassets\\Images\\IconOnly.png"
+    },
+    {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\Logo.jpg",
       "PackagePath": "staticwebassets\\Images\\Logo.jpg"
     },
