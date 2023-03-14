@@ -1,0 +1,49 @@
+﻿@page
+@model MentorSystem.Pages.ViewRequest.IndexModel
+@{
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Request[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Request[0].Studentid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Request[0].Classid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Request[0].Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Request.Where(a => a.Mentorid == Int32.Parse(HttpContext.Session.GetString("Id"))))
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Studentid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Classid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                @if (item.Status == "Pending")
+                {
+                    <td>
+                        <a asp-page="./AcceptRequest" asp-route-id="@item.Id" class="btn btn-primary">Accept</a> |
+                        <a asp-page="./RefuseRequest" asp-route-id="@item.Id" class="btn btn-danger">Refuse</a>
+                    </td>
+                }
+            </tr>
+        }
+    </tbody>
+</table>

@@ -34,7 +34,7 @@ namespace MentorSystem.Pages
                 }
                 else
                 {
-                    return RedirectToPage("Index");
+                    return RedirectToPage("/ViewRequest/Index");
                 }
             }
             else
