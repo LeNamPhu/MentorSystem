@@ -9,10 +9,10 @@
                 @Html.DisplayNameFor(model => model.Request[0].Id)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Request[0].Studentid)
+                Student
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Request[0].Classid)
+                Class
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Request[0].Status)
@@ -28,10 +28,10 @@
                     @Html.DisplayFor(modelItem => item.Id)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Studentid)
+                    @Html.DisplayFor(modelItem => Model.Accounts.FirstOrDefault(a => a.Id == item.Studentid).Fullname)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.Classid)
+                    @Html.DisplayFor(modelItem => Model.Class.FirstOrDefault(a => a.Id == item.Classid).Name)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Status)

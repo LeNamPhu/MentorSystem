@@ -113,9 +113,10 @@ namespace Repository.Models
 
             modelBuilder.Entity<ClassInfo>(entity =>
             {
-                entity.HasNoKey();
 
                 entity.ToTable("ClassInfo");
+
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Classid).HasColumnName("classid");
 

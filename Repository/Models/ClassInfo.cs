@@ -5,6 +5,7 @@ namespace Repository.Models
 {
     public partial class ClassInfo
     {
+        public int Id { get; set; }
         public int? Classid { get; set; }
         public int? Studentid { get; set; }
 
