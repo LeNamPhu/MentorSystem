@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ivWe3VbpvtykPhGAAPPquR+R8hWFWs1pirmZVwkkSkY=",
+  "Hash": "fIHrSDXa/8e4503muOazmWCrMJjWWr06IepEJVBZSGI=",
   "Source": "MentorSystem",
   "BasePath": "_content/MentorSystem",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\tesla-model-s.png"
+    },
+    {
+      "Identity": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\User.png",
+      "SourceId": "MentorSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\",
+      "BasePath": "_content/MentorSystem",
+      "RelativePath": "Images/User.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\User.png"
     },
     {
       "Identity": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\vr-bg.jpg",

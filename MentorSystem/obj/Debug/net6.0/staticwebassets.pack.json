@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\Images\\StarFade.gif"
     },
     {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\User.png",
+      "PackagePath": "staticwebassets\\Images\\User.png"
+    },
+    {
       "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\Images\\home-decor-1.jpg",
       "PackagePath": "staticwebassets\\Images\\home-decor-1.jpg"
     },

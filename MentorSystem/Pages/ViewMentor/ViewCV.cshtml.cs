@@ -13,20 +13,22 @@ namespace MentorSystem.Pages.ViewMentor
         {
             _context = context;
         }
-        public IList<Account> Accounts { get; set; } = default!;
 
         public MentorCv MentorCv { get; set; }
-
+        public List<Class> MentorClassList { get; set; }
+        public Account MentorAccount { get; set; }
+        public List<Rating> MentorRating { get; set; }
+        public List<Account> StudentAccount { get; set; }
         public async Task<IActionResult> OnGetAsync(int? id)
         {
             if (id == null || _context.MentorCvs == null)
             {
                 return NotFound();
             }
-            if (_context.Accounts != null)
-            {
-                Accounts = await _context.Accounts.ToListAsync();
-            }
+            StudentAccount = await _context.Accounts.ToListAsync();
+            MentorRating = await _context.Ratings.Where(r => r.Mentorid == id).ToListAsync();
+            MentorAccount = await _context.Accounts.FirstOrDefaultAsync(m => m.Id == id);
+            MentorClassList = await _context.Classes.Where(m => m.Mentorid == id).ToListAsync();
             var mentorCv = await _context.MentorCvs.FirstOrDefaultAsync(m => m.Mentorid == id);
             if (mentorCv == null)
             {

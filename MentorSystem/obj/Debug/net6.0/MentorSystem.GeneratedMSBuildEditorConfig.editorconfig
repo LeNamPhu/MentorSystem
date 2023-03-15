@@ -120,6 +120,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld01lbnRvclxWaWV3U2tpbGwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewRequest/AcceptRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1JlcXVlc3RcQWNjZXB0UmVxdWVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewRequest/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1JlcXVlc3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewRequest/RefuseRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld1JlcXVlc3RcUmVmdXNlUmVxdWVzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/PRN221/MentorSystem/MentorSystem/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
