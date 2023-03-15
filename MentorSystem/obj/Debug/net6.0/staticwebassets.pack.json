@@ -541,6 +541,702 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_alert.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_avatars.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_avatars.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_badge.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_breadcrumbs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_breadcrumbs.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_cards.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dark-version.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_dropup.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_dropup.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_footer.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_footer.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_forms.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_header.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_icons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_icons.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_info-areas.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_misc.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_nav.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_popovers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_popovers.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_progress.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_ripple.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_ripple.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_rtl.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tables.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_tilt.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tilt.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_timeline.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_tooltips.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_tooltips.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_typography.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_utilities-extend.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\_variables.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_accordion.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_alert.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_badge.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_button-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_button-group.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_card.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_carousel.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_carousel.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_close.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_close.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_containers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_containers.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_dropdown.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_forms.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_functions.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_grid.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_helpers.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_helpers.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_images.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_images.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_maps.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_maps.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_mixins.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_modal.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_nav.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_placeholders.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_placeholders.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_popover.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_popover.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_progress.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_reboot.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_root.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_root.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_spinners.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_spinners.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_tables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_tables.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_toasts.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_toasts.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_tooltip.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_transitions.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_transitions.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_type.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_type.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\_variables.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\bootstrap.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\bootstrap.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_color-bg.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_banner.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\cards\\card-background.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-background.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\cards\\card-rotate.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\cards\\card-rotate.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\custom\\_styles.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\custom\\_styles.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\custom\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\custom\\_variables.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\forms\\_form-check.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-check.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\forms\\_form-select.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-select.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\forms\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_form-switch.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\forms\\_forms.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_forms.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\forms\\_input-group.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_input-group.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\forms\\_inputs.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_inputs.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\forms\\_labels.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\forms\\_labels.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\mixins\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_badge.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\mixins\\_buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_buttons.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\mixins\\_colored-shadows.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_colored-shadows.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\mixins\\_hover.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_hover.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\mixins\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\mixins\\_vendor.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\_vendor.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\mixins\\mixins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\mixins\\mixins.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\plugins\\free\\_prism.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\_prism.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\plugins\\free\\plugins.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\plugins\\free\\plugins.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\theme.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\theme.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_animations.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_animations.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_avatars.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_avatars.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_badge.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_badge.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_breadcrumb.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_cards-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_cards-extend.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_cards.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_cards.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_choices.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_choices.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_dark-version.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_dark-version.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_dropdowns.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_dropdowns.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_fixed-plugin.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_fixed-plugin.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_form-switch.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_form-switch.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_full-calendar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_full-calendar.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_header.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_header.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_info-areas.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_info-areas.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_misc-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_misc-extend.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_misc.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_misc.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_navbar-vertical.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_navbar-vertical.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_navbar.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_navbar.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_pagination.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_pagination.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_ripple.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_ripple.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_rtl.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_rtl.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_social-buttons.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_social-buttons.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_table.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_table.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_timeline.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_timeline.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_utilities-extend.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_utilities-extend.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_utilities.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_utilities.scss"
+    },
+    {
+      "Id": "E:\\PRN221\\MentorSystem\\MentorSystem\\wwwroot\\scss\\material-dashboard\\variables\\_virtual-reality.scss",
+      "PackagePath": "staticwebassets\\scss\\material-dashboard\\variables\\_virtual-reality.scss"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MentorSystem.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

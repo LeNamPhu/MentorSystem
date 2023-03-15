@@ -66,7 +66,7 @@ namespace MentorSystem.Pages.Profile
                 }
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Edit");
         }
 
         private bool AccountExists(int id)

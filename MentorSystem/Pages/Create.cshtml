@@ -1,7 +1,97 @@
 ﻿@page
 @model MentorSystem.Pages.CreateModel
 
-<h4>Account</h4>
+
+
+<section>
+    <div class="page-header min-vh-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 d-lg-flex d-none h-100 my-auto pe-0 position-absolute top-0 start-0 text-center justify-content-center flex-column">
+                    <div class="position-relative bg-gradient-primary h-100 m-3 px-7 border-radius-lg d-flex flex-column justify-content-center" style="background-image: url('/Images/illustrations/illustration-signup.jpg'); background-size: cover;">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 col-md-7 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-5">
+                    <div class="card card-plain">
+                        <div class="card-header">
+                            <h4 class="font-weight-bolder">Sign Up</h4>
+                            <p class="mb-0">Enter your information to register</p>
+                        </div>
+                        <div class="card-body">
+                            <form role="form" method="post" class=" m-auto">
+
+                                <input hidden asp-for="Account.Id" type="text" class="form-control">
+
+
+                                <div class="input-group input-group-static mb-2 ">
+                                    <label class="">Email</label>
+                                    <input required asp-for="Account.Email" type=" email" class="form-control">
+                                    <span asp-validation-for="Account.Email" class="text-danger"></span>
+                                </div>
+                                <div class="input-group input-group-static mb-2 ">
+                                    <label class="">Password</label>
+                                    <input required type="password" class="form-control">
+                                    <span asp-validation-for="Account.Password" class="text-danger"></span>
+                                </div>
+                                <div class="input-group input-group-static mb-2 ">
+                                    <label class="">Full Name</label>
+                                    <input required asp-for="Account.Fullname" type="text" class="form-control">
+                                    <span asp-validation-for="Account.Fullname" class="text-danger"></span>
+                                </div>
+                                <div class="input-group input-group-static mb-2 ">
+                                    <label class="">Phone</label>
+                                    <input required asp-for="Account.Phone" type="text" class="form-control">
+                                    <span asp-validation-for="Account.Phone" class="text-danger"></span>
+                                </div>
+                                <div class="input-group input-group-static mb-2 ">
+                                    <label class="">Address</label>
+                                    <input required asp-for="Account.Address" type="text" class="form-control">
+                                    <span asp-validation-for="Account.Address" class="text-danger"></span>
+                                </div>
+                                <div class="input-group input-group-static mb-2 ">
+                                    <label class="">Date Of Birth</label>
+                                    <input required asp-for="Account.Dateofbirth" placeholder="" onfocus="(this.type='date')" type="date" class="form-control">
+                                    <span asp-validation-for="Account.Dateofbirth" class="text-danger"></span>
+                                </div>
+                                <div class="input-group input-group-static mb-2 ">
+                                    <label class="">Gender</label>
+                                    <select required asp-for="Account.Sex" class="form-control ">
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                        <option>Other</option>
+
+                                    </select>
+                                    <span asp-validation-for="Account.Sex" class="text-danger"></span>
+                                </div>
+                                <div class="input-group input-group-static mb-2">
+                                    <label class="">Role</label>
+                                    <select required asp-for="Account.Role" class="form-control ">
+                                        <option>Student</option>
+                                        <option>Mentor</option>
+
+
+                                    </select>
+                                    <span asp-validation-for="Account.Role" class="text-danger"></span>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">Change Profile</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="card-footer text-center pt-0 px-lg-2 px-1">
+                            <p class="mb-2 text-sm mx-auto">
+                                Already have an account?
+                                <a href="/Login" class="text-primary text-gradient font-weight-bold">Sign in</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@*<h4>Account</h4>
 <hr />
 <h4 class="text-danger"> @Model.Message </h4>
 <hr/>
@@ -64,7 +154,7 @@
 
 <div>
     <a asp-page="Index">Back to List</a>
-</div>
+</div>*@
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

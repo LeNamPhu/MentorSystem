@@ -4,8 +4,85 @@
 @{
     ViewData["Title"] = "Edit";
 }
+<div class="vh-100 d-flex">
+    <div class=" container my-auto">
+        <div class="row my-auto">
+            <div class="  w-50 d-flex flex-column m-auto ">
+                <div class="card z-index-0 fadeIn3 fadeInBottom">
+                    <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                        <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
+                            <h4 class="text-white font-weight-bolder text-center mt-2 mb-0">Profile</h4>
 
-<h1>Edit Profile</h1>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form role="form" method="post" class=" m-auto">
+                            
+                                <input hidden  asp-for="Account.Id" type="text" class="form-control">
+                                
+                            
+                            <div class="input-group input-group-outline mb-3 is-filled">
+                                <label class="form-label">Email</label>
+                                <input required asp-for="Account.Email" type=" email" class="form-control">
+                                <span asp-validation-for="Account.Email" class="text-danger"></span>
+                            </div>
+                            <div class="input-group input-group-outline mb-3 is-filled">
+                                <label class="form-label">Password</label>
+                                <input required type="password" class="form-control">
+                                <span asp-validation-for="Account.Password" class="text-danger"></span>
+                            </div>
+                            <div class="input-group input-group-outline mb-3 is-filled">
+                                <label class="form-label">Full Name</label>
+                                <input required asp-for="Account.Fullname" type="text" class="form-control">
+                                <span asp-validation-for="Account.Fullname" class="text-danger"></span>
+                            </div>
+                            <div class="input-group input-group-outline mb-3 is-filled">
+                                <label class="form-label">Phone</label>
+                                <input required asp-for="Account.Phone" type="text" class="form-control">
+                                <span asp-validation-for="Account.Phone" class="text-danger"></span>
+                            </div>
+                            <div class="input-group input-group-outline mb-3 is-filled">
+                                <label class="form-label">Address</label>
+                                <input required asp-for="Account.Address" type="text" class="form-control">
+                                <span asp-validation-for="Account.Address" class="text-danger"></span>
+                            </div>
+                            <div class="input-group input-group-outline mb-3 is-filled">
+                                <label class="form-label">Date Of Birth</label>
+                                <input required value="@Model.Account.Dateofbirth" type="date" class="form-control">
+                                <span asp-validation-for="Account.Dateofbirth" class="text-danger"></span>
+                            </div>
+                            <div class="input-group input-group-static mb-3 focus is-focused is-filled">
+                                <label class="">Gender</label>
+                                <select required asp-for="Account.Sex" class="form-control ">
+                                    <option>Male</option>
+                                    <option>Female</option>
+                                    <option>Other</option>
+                                    
+                                </select>
+                                <span asp-validation-for="Account.Sex" class="text-danger"></span>
+                            </div>
+                            <div class="input-group input-group-static mb-3 focus is-focused is-filled">
+                                <label class="">Role</label>
+                                <select required asp-for="Account.Role" class="form-control ">
+                                    <option>Student</option>
+                                    <option>Mentor</option>
+                                   
+
+                                </select>
+                                <span asp-validation-for="Account.Role" class="text-danger"></span>
+                            </div>
+                            
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-lg bg-gradient-primary btn-lg w-100 mt-4 mb-0">Change Profile</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@*<h1>Edit Profile</h1>
 
 
 <hr />
@@ -61,8 +138,10 @@
     </div>
 </div>
 
-
+*@
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

@@ -13,6 +13,7 @@ namespace MentorSystem.Pages.ViewMentor
         {
             _context = context;
         }
+        public IList<Account> Accounts { get; set; } = default!;
 
         public MentorCv MentorCv { get; set; }
 
@@ -22,7 +23,10 @@ namespace MentorSystem.Pages.ViewMentor
             {
                 return NotFound();
             }
-
+            if (_context.Accounts != null)
+            {
+                Accounts = await _context.Accounts.ToListAsync();
+            }
             var mentorCv = await _context.MentorCvs.FirstOrDefaultAsync(m => m.Mentorid == id);
             if (mentorCv == null)
             {

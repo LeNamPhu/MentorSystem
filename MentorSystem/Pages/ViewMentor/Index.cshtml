@@ -1,8 +1,98 @@
 ﻿@page
 @model MentorSystem.Pages.Mentor.IndexModel
 
+ <div class="container-fluid vh-100 py-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="card my-4">
+            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+              <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                <h6 class="text-white text-capitalize ps-3">Mentors</h6>
+              </div>
+            </div>
+            <div class="card-body px-0 h-100">
+              <div class=" p-0">
+                <table class="table align-items-center mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Email</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Full Name</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Phone</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Address</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Date Of Birth</th>
+                      <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Gender</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                      @foreach (var item in Model.Account.Where(a => a.Role == "Mentor")) {
+                    <tr>
+                                   
+                                    <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Email)</span>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Fullname)</span>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Phone)</span>
+                                    </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Address)</span>
+                                        </td>
+                                    <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Dateofbirth)</span>
+                                    </td>
+                                    <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Sex)</span>
+                                    </td>
+                                        <td class="align-middle text-center">
+                                            <div class=" dropdown pe-2 d-flex align-items-center">
 
-<table class="table">
+                                            <button class="btn btn-outline-primary btn-sm text-xs dropdown-toggle m-0" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                                Actions
+                                            </button>
+                                                <ul class="dropdown-menu shadow-blur " aria-labelledby="dropdownMenuButton">
+                                                    <li class="mb-2">
+                                                        <a class="dropdown-item border-radius-md" asp-page="./ViewCV" asp-route-id="@item.Id">
+                                                            View Mentor's CV
+                                                        </a>
+
+                                                    </li>
+                                                    <li class="mb-2">
+                                                        <a class="dropdown-item border-radius-md"  asp-page="./ViewSkill" asp-route-id="@item.Id">
+                                                            View Mentor's Skill
+                                                        </a>
+
+                                                    </li>
+                                                    <li class="mb-2">
+                                                        <a class="dropdown-item border-radius-md"  asp-page="../RateMentor/Index" asp-route-id="@item.Id">
+                                                            Rate Mentor
+                                                        </a>
+
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                      
+                    </tr>
+                 }
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+
+    </div>
+
+
+
+@*<table class="table">
     <thead>
         <tr>
             <th>
@@ -55,5 +145,5 @@
         </tr>
 }
     </tbody>
-</table>
+</table>*@
 
