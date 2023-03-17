@@ -2,7 +2,69 @@
 @model MentorSystem.Pages.ViewRequest.IndexModel
 @{
 }
-<table class="table">
+
+<div class="container-fluid vh-100 py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card my-4">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">Your Requests</h6>
+                    </div>
+                </div>
+                <div class="card-body px-0 h-100">
+                    <div class=" p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">ID</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Student</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Class</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Status</th>
+                                    
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Request.Where(a => a.Mentorid == Int32.Parse(HttpContext.Session.GetString("Id"))))
+                                {
+                                    <tr>
+
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Id)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => Model.Accounts.FirstOrDefault(a => a.Id == item.Studentid).Fullname)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold"> @Html.DisplayFor(modelItem => Model.Class.FirstOrDefault(a => a.Id == item.Classid).Name)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">  @Html.DisplayFor(modelItem => item.Status)</span>
+                                        </td>
+
+                                        @if (item.Status == "Pending")
+                                        {
+                                            <td class="align-middle text-center">
+                                                <a asp-page="./AcceptRequest" asp-route-id="@item.Id" class="my-auto btn btn-primary">Accept</a>
+                                                <a asp-page="./RefuseRequest" asp-route-id="@item.Id" class="my-auto btn btn-outline-primary">Refuse</a>
+                                            </td>
+                                        }
+                                        
+
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+@*<table class="table">
     <thead>
         <tr>
             <th>
@@ -46,4 +108,4 @@
             </tr>
         }
     </tbody>
-</table>
+</table>*@

@@ -2,7 +2,37 @@
 @model MentorSystem.Pages.ViewClass.RequestClassModel
 @{
 }
-<h3>Are you sure you want to register this class?</h3>
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class=" d-flex p-5 ">
+            <div class="card my-4 mx-auto">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">Confirm Request</h6>
+                    </div>
+                </div>
+                <div class="card-body px-0 pb-2">
+                    <li class="list-group-item border-0 px-5 py-1" ><strong class="text-dark">ID:</strong> &nbsp; @Html.DisplayFor(model => model.Class.Id)</li>
+                    <li class="list-group-item border-0 px-5 py-1"><strong class="text-dark">Class Name:</strong> &nbsp;  @Html.DisplayFor(model => model.Class.Name)</li>
+                    <li class="list-group-item border-0 px-5 py-1"><strong class="text-dark">Full Name:</strong> &nbsp; @Html.DisplayFor(model => Model.Accounts.FirstOrDefault(a => a.Id == model.Class.Mentorid).Fullname)</li>
+                    <li class="list-group-item border-0 px-5 py-1"><strong class="text-dark">Schedule:</strong> &nbsp; @Html.DisplayFor(model => model.Class.Schedule)</li>
+                    <hr class="dark horizontal">
+                    <li class="list-group-item border-0 px-5 py-1">
+                        <form method="post" class=" d-flex flex-column align-items-center " >
+                            
+                            
+                            <input type="hidden" asp-for="Class.Id" />
+                            <input type="submit" value="Register" class="btn btn-primary " />
+                            <a asp-page="./Index">Back to List</a>
+                        </form>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+@*<h3>Are you sure you want to register this class?</h3>
 <div>
     <h4>Class</h4>
     <hr />
@@ -38,4 +68,4 @@
         <input type="submit" value="Register" class="btn btn-primary" />
         <a asp-page="./Index">Back to List</a>
     </form>
-</div>
+</div>*@

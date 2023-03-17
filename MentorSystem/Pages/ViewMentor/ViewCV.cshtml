@@ -99,7 +99,8 @@
                                         <h6 class="mb-0 text-sm"> @Html.DisplayFor(modelItem => item.Name)</h6>
                                             <p class="mb-0 text-xs"> @Html.DisplayFor(modelItem => item.Schedule)</p>
                                     </div>
-                                    <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto w-25 w-md-auto" href="javascript:;">Apply</a>
+                                        <a class="btn btn-link pe-3 ps-0 mb-0 ms-auto w-25 w-md-auto" asp-page="../ViewClass/RequestClass" asp-route-id="@item.Mentorid ">Apply</a>
+                                        
                                 </li>
                                 }
                             </ul>

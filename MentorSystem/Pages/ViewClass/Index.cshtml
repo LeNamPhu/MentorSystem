@@ -11,7 +11,7 @@
                     <div class="card my-4">
                         <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                             <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
-                                <h6 class="text-white text-capitalize ps-3">All Class</h6>
+                                <h6 class="text-white text-capitalize ps-3">All Classes</h6>
                             </div>
                         </div>
                         <div class="card-body px-0 pb-2">
@@ -44,7 +44,7 @@
                                             @if (HttpContext.Session.GetString("Role") == "Student")
                                             {
                                                 <td class="align-middle text-center">
-                                                    <a asp-page="./RequestClass" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                                    <a asp-page="./RequestClass" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm text-xs my-auto" data-toggle="tooltip" data-original-title="Edit user">
                                                         Join Class
                                                     </a>
 

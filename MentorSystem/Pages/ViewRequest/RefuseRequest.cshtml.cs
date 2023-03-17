@@ -32,18 +32,20 @@ namespace MentorSystem.Pages.ViewRequest
             }
             else
             {
-                Request = Request;
+                this.Request = Request;
             }
             return Page();
         }
 
         public async Task<IActionResult> OnPostAsync(int? id)
         {
-            if (id == null || _context.Requests == null)
+            if (_context.Requests == null)
             {
                 return NotFound();
             }
+            var Request = await _context.Requests.FirstOrDefaultAsync(m => m.Id == id);
             Request.Status = "Refused";
+
             _context.Attach(Request).State = EntityState.Modified;
 
             try
@@ -61,7 +63,13 @@ namespace MentorSystem.Pages.ViewRequest
                     throw;
                 }
             }
-
+            var ClassInfo = new ClassInfo()
+            {
+                Classid = Request.Classid,
+                Studentid = Request.Studentid
+            };
+            _context.ClassInfos.Add(ClassInfo);
+            await _context.SaveChangesAsync();
             return RedirectToPage("./Index");
         }
         private bool RequestExists(int id)
