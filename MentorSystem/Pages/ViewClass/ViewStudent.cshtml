@@ -1,0 +1,67 @@
+﻿@page
+@model MentorSystem.Pages.ViewClass.ViewStudentModel
+@{
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Accounts[0].Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Accounts[0].Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Accounts[0].Fullname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Accounts[0].Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Accounts[0].Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Accounts[0].Dateofbirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Accounts[0].Sex)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Accounts)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fullname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dateofbirth)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Sex)
+                </td>
+                <td>
+                    <form method="post">
+                        <input type="hidden" asp-for="@item.Id" name="StudentId"/>
+                        <input type="hidden" asp-for="@Model.ClassId" name="ClassId">
+                        <input type="submit" value="Delete" class="btn btn-danger" /> 
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

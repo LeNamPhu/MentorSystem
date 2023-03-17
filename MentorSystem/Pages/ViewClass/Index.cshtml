@@ -50,6 +50,15 @@
 
                                                 </td>
                                             }
+                                            @if (HttpContext.Session.GetString("Role") == "Mentor")
+                                            {
+                                            <td class="align-middle text-center">
+                                                <a asp-page="./ViewStudent" asp-route-id="@item.Id" class="btn btn-outline-primary btn-sm text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                                    View Students
+                                                </a>
+
+                                            </td>
+                                            }
                                         </tr>
                                         }
                                         
