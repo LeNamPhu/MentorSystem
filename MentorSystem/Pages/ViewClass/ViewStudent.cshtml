@@ -2,7 +2,78 @@
 @model MentorSystem.Pages.ViewClass.ViewStudentModel
 @{
 }
-<table class="table">
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card my-4 ">
+                <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                    <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                        <h6 class="text-white text-capitalize ps-3">Class Info</h6>
+                    </div>
+                </div>
+                <div class="card-body px-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">ID</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Email</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Full Name</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Phone</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Address</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Date Of Birth</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Gender</th>
+                                    <th class="text-secondary opacity-7"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Accounts)
+                                {
+                                    <tr>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Id)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Email)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold"> @Html.DisplayFor(modelItem => item.Fullname)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Phone)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Address)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Dateofbirth)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@Html.DisplayFor(modelItem => item.Sex)</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <form method="post">
+                                                <input type="hidden" asp-for="@item.Id" name="StudentId" />
+                                                <input type="hidden" asp-for="@Model.ClassId" name="ClassId">
+                                                <input type="submit" value="Remove" class="btn btn-primary" />
+                                            </form>
+                                        </td>
+                                        
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+@*<table class="table">
     <thead>
         <tr>
             <th>
@@ -64,4 +135,4 @@
             </tr>
         }
     </tbody>
-</table>
+</table>*@

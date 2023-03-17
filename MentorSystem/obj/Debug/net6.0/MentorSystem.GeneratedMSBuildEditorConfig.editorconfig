@@ -100,6 +100,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0NsYXNzXFJlcXVlc3RDbGFzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/PRN221/MentorSystem/MentorSystem/Pages/ViewClass/ViewStudent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0NsYXNzXFZpZXdTdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/PRN221/MentorSystem/MentorSystem/Pages/ViewClass/ViewStudentClass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmlld0NsYXNzXFZpZXdTdHVkZW50Q2xhc3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
