@@ -23,7 +23,14 @@ namespace MentorSystem.Pages.ViewClass
         {
             if (_context.Classes != null)
             {
-                Class = await _context.Classes.ToListAsync();
+                if (HttpContext.Session.GetString("Role") == "Mentor")
+                {
+                    Class = await _context.Classes.Where(m => m.Mentorid == Int32.Parse(HttpContext.Session.GetString("Id"))).ToListAsync();
+                }
+                else
+                {
+                    Class = await _context.Classes.ToListAsync();
+                }
             }
             if (_context.Accounts != null)
             {
